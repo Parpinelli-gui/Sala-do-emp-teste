@@ -1,0 +1,191 @@
+html, body{
+    margin: 0;
+    background-color: white;
+}
+
+
+/* -------- Header -------- */
+header{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    box-shadow: -5;
+    z-index: 10;
+    position: fixed;
+    box-shadow: 2px 2px 20px black;
+}
+
+#logo{
+    margin: 5px;
+    width: 250px;
+    height: 80px;
+}
+
+#menu-header{
+    margin-top: 6%;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+li a{
+    color:#054f77;
+}
+
+li:hover{
+    background: url(../img/fundocor.jpg)
+}
+
+
+/* ------ CENTRO ------- */
+#bloco-centro{
+    width: 90%;
+    border: 2px white solid;
+    margin: 0% 5% 5% 5%;
+    padding-bottom: 30%;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#titulosala{
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+
+.links-centro{
+    padding: 10% 5%;
+    margin: 0 5px 0 5px;
+    background-color: #4682B4;
+    width: 25%;
+}
+
+.links-centro:hover{
+    background: url(../img/fundocor.jpg)
+}
+
+#links1{
+    display: block;
+    margin: 1%;
+    padding: 10%;
+    margin-top: 3%;
+}
+
+#links2{
+    display: block;
+    margin: 1%;
+    padding: 10%;
+}
+
+#links3{
+    display: block;
+    margin: 1%;
+    padding: 10%;
+}
+
+/* -------- Footer -------- */
+footer{ 
+    background: url(../img/fundocor.jpg);
+    height: 50px;
+    padding-bottom: 100px;
+    margin: 0;
+    background-size: cover;
+    clear: both;
+    color: white;
+    box-shadow: -2px -2px 20px black;
+}
+footer img{
+    width: 200px;
+    height: 150px;
+    margin-right: 5%;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 2%;
+}
+
+/* -------- CSS Reutilizavél -------- */
+.left{ 
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+p{
+    margin: 0
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.section-borda{ 
+    margin: 3%;
+}
+
+.imagemsobre{
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+}
+
+iframe{ 
+    margin: 20px;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.espacamento{
+    margin: 20px;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+}
+
+.arredondado{
+    border-radius: 10px;
+}
+
+.fundocinza{
+    background-color:#f7f7f7;
+}
+
+.borda{
+    border: 1px #054f77 solid;
+}
+
+.borda-titulo{
+    border-bottom: 1px #054f77 solid;
+}
+
+
+.margem-titulo{
+    margin: 20px 30%;
+}
+
+.margem-titulo2{
+    margin: 20px 25%;
+}
+
+.margem-contatos{
+    margin: 20px 35%;
+}
+
+h2{
+    color: #054f77;
+}
+
+
