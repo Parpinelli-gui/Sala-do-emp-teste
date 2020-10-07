@@ -1,6 +1,6 @@
 html, body{
     margin: 0;
-    background-color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -45,8 +45,9 @@ li:hover{
 
 /* -------- Capa -------- */
 #capa{
-    padding: 15%;
-    background: url(https://naturam.com.br/wp-content/uploads/2017/07/pomerode-santa-catarina-2.jpg);
+    padding: 13%;
+    /*background: url(https://naturam.com.br/wp-content/uploads/2017/07/pomerode-santa-catarina-2.jpg);*/
+    background-color: gray;
     background-size: cover;
     text-align: center;
     text-align: justify;
@@ -58,12 +59,11 @@ li:hover{
     margin: 5% 18%;
     text-align: center;
     width: 420px;
+    text-transform: uppercase;
 }
 
 #inicio a:hover{
-    color: #054f77;
-    border-bottom: 2px #054f77 solid;
-    border-right: 2px #054f77 solid;
+    font-style: italic;
 }
 
 
@@ -134,7 +134,7 @@ a{
 }
 
 .imagemsobre{
-    width: 600px;
+    width: 500px;
     height: 300px;
     margin: 20px;
 }
@@ -154,6 +154,12 @@ iframe{
 .icone{
     width: 50px;
     height: 50px;
+    margin-bottom: 5%;
+}
+
+.icone2{
+    width: 65px;
+    height: 65px;
 }
 
 .arredondado{
@@ -161,19 +167,11 @@ iframe{
 }
 
 .fundocinza{
-    background-color:#f7f7f7;
-}
-
-.fundobranco{
-    background-color: white;
+    background-color: #f7f7f7;
 }
 
 .borda{
     border: 1px #054f77 solid;
-}
-
-.borda-titulo{
-    border-bottom: 1px #054f77 solid;
 }
 
 
