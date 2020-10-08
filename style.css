@@ -7,7 +7,7 @@ html, body{
 /* -------- Header -------- */
 header{
     width: 100%;
-    height: 90px;
+    height: 110px;
     background-color: white;
     box-shadow: -5;
     z-index: 10;
@@ -16,17 +16,19 @@ header{
 }
 
 #logo{
-    margin: 5px;
+    margin: 10px;
     width: 250px;
     height: 80px;
 }
 
-#menu-header{
-    margin-top: 6%;
+#logo:hover{
+    width: 300px;
+    height: 90px;
 }
 
-.margem-menu{
-    margin-left: 10%;
+#menu-header{
+    margin-top: 45px;
+    margin-right: 15px;
 }
 
 li{
@@ -40,7 +42,7 @@ li a{
 }
 
 li:hover{
-    background: url(img/fundocor.jpg)
+    padding: 25px;
 }
 
 /* -------- Capa -------- */
@@ -99,16 +101,24 @@ footer{
     box-shadow: -2px -2px 20px black;
 }
 footer img{
-    width: 200px;
-    height: 150px;
-    margin-right: 5%;
+    width: 160px;
+    height: 130px;
+    margin: 10px;
+}
+
+footer img:hover{
+    width: 170px;
+    height: 140px;
+    margin: 8px;
+    margin-left: 2px;
+    margin-bottom: 0px;
 }
 
 footer p{
     text-align: center;
     padding-top: 5%;
     padding-right: 5%;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 
 /* -------- CSS Reutilizavél -------- */
@@ -194,3 +204,4 @@ iframe{
 h2{
     color: #054f77;
 }
+

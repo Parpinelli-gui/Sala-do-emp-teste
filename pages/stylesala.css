@@ -1,28 +1,36 @@
 html, body{
     margin: 0;
     background-color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 /* -------- Header -------- */
 header{
     width: 100%;
-    height: 90px;
+    height: 110px;
     background-color: white;
     box-shadow: -5;
     z-index: 10;
     position: fixed;
     box-shadow: 2px 2px 20px black;
+    top: 0px;
 }
 
 #logo{
-    margin: 5px;
+    margin: 10px;
     width: 250px;
     height: 80px;
 }
 
+#logo:hover{
+    width: 300px;
+    height: 90px;
+}
+
 #menu-header{
-    margin-top: 6%;
+    margin-top: 45px;
+    margin-right: 15px;
 }
 
 li{
@@ -36,9 +44,8 @@ li a{
 }
 
 li:hover{
-    background: url(../img/fundocor.jpg)
+    padding: 25px;
 }
-
 
 /* ------ CENTRO ------- */
 #bloco-centro{
@@ -98,16 +105,25 @@ footer{
     box-shadow: -2px -2px 20px black;
 }
 footer img{
-    width: 200px;
-    height: 150px;
-    margin-right: 5%;
+    width: 160px;
+    height: 130px;
+    margin: 10px;
+}
+
+footer img:hover{
+    width: 170px;
+    height: 140px;
+    margin: 8px;
+    margin-left: 2px;
+    margin-bottom: 8px;
 }
 
 footer p{
     text-align: center;
     padding-top: 5%;
     padding-right: 5%;
-    padding-left: 2%;
+    padding-left: 5%;
+    margin: 0px;
 }
 
 /* -------- CSS Reutilizavél -------- */
@@ -119,73 +135,16 @@ footer p{
     float: right;
 }
 
-p{
-    margin: 0
-}
-
 a{
     color: white;
     text-decoration: none;
-}
-
-.section-borda{ 
-    margin: 3%;
-}
-
-.imagemsobre{
-    width: 600px;
-    height: 300px;
-    margin: 20px;
-}
-
-iframe{ 
-    margin: 20px;
-}
-
-.centralizado{
-    text-align: center;
-}
-
-.espacamento{
-    margin: 20px;
-}
-
-.icone{
-    width: 50px;
-    height: 50px;
 }
 
 .arredondado{
     border-radius: 10px;
 }
 
-.fundocinza{
-    background-color:#f7f7f7;
-}
-
 .borda{
     border: 1px #054f77 solid;
 }
-
-.borda-titulo{
-    border-bottom: 1px #054f77 solid;
-}
-
-
-.margem-titulo{
-    margin: 20px 30%;
-}
-
-.margem-titulo2{
-    margin: 20px 25%;
-}
-
-.margem-contatos{
-    margin: 20px 35%;
-}
-
-h2{
-    color: #054f77;
-}
-
 
