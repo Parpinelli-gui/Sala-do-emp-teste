@@ -76,9 +76,7 @@ li:hover{
 
 #links1{
     display: block;
-    margin: 1%;
     padding: 10%;
-    margin-top: 3%;
 }
 
 #links2{
@@ -148,3 +146,7 @@ a{
     border: 1px #054f77 solid;
 }
 
+.section-borda{ 
+    margin: 3%;
+    margin-top: 10%;
+}
