@@ -1,7 +1,7 @@
 html, body{
     margin: 0;
-    background-color: white;
     font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
 }
 
 
@@ -48,47 +48,47 @@ li:hover{
 }
 
 /* ------ CENTRO ------- */
-#bloco-centro{
-    width: 90%;
-    border: 2px white solid;
-    margin: 0% 5% 5% 5%;
-    padding-bottom: 30%;
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-}
 
-#titulosala{
-    margin-left: 10%;
-    margin-bottom: 0;
-}
 
-.links-centro{
-    padding: 10% 5%;
-    margin: 0 5px 0 5px;
-    background-color: #4682B4;
+.design {
     width: 25%;
+    background-color: #4682B4;
+    margin: 10px;
+    padding: 90px 0px;
+    box-shadow: 2px 2px 5px;
 }
 
-.links-centro:hover{
-    background: url(../img/fundocor.jpg)
+.design:hover {
+    background-color: #054f77;
+    box-shadow: 5px 5px 20px;
 }
 
-#links1{
-    display: block;
-    padding: 10%;
+.linksdesign {
+    padding: 80px 40px;
 }
 
-#links2{
-    display: block;
-    margin: 1%;
-    padding: 10%;
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: #054f77;
+    padding-bottom: 20px;
 }
 
-#links3{
-    display: block;
-    margin: 1%;
-    padding: 10%;
+#titulo2 {
+    margin-top: 10%;
+}
+
+h3 {
+    color: #054f77;
+    margin-right: 65%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.div {
+    width: 90%;
+    padding-bottom: 60%;
+    margin-left: 16%;
 }
 
 /* -------- Footer -------- */
@@ -146,7 +146,82 @@ a{
     border: 1px #054f77 solid;
 }
 
-.section-borda{ 
-    margin: 3%;
+.margem-cima {
     margin-top: 10%;
+}
+
+.margem-baixo {
+    margin-bottom: 12%;
+}
+
+p {
+    padding: 10px;
+    margin: 20px;
+    margin-left: 6%;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.fundocinza {
+    background-color:white;
+}
+
+.icone {
+    width: 40px;
+    height: 25px;
+}
+
+
+/* RESPONSIVO */
+@media all and (max-width: 768px){
+    #menu-header {
+        visibility: hidden;
+    }
+
+    #logo {
+        margin: 10px 20px;
+        margin-left: 5%;
+    }
+
+    #logoimg {
+        text-align: center;
+    }
+
+    .imgLogo {
+        text-align: center;
+    }
+
+    .left  {
+        float: none;
+    }
+
+    .right  {
+        float: none;
+    }
+
+    h2 {
+        font-size: 60px;
+        padding: 66% 5%;
+        width: 310px;
+    }
+    .div {
+        padding-bottom: 10%;
+        margin: 5%;
+    }
+
+    .design {
+        padding: 40px 0px;
+        width: 93%;
+    }
+
+    .pfooter {
+        display: none;
+    }
+
+    #footerimg {
+        margin: 5px 24%;
+    }
+
 }

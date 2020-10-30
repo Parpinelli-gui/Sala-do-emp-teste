@@ -10,16 +10,16 @@
     </head>
     <body>
         <header>
-            <div class="left"> 
+            <div id="logoimg" class="left"> 
                 <a href="index.html"><img id="logo" src="img/Logosala.jpg"></a>
             </div>
             <div class="right">
                 <nav id="menu-header">
-                    <li class="arredondado borda"><a href="#servicos">Serviços</a></li>
-                    <li class="arredondado borda"><a href="pages/saladigital.html">Tutoriais</a></li>
-                    <li class="arredondado borda"><a href="pages/saladigital.html">Sala digital</a></li>
                     <li class="arredondado borda"><a href="#sobre">Sobre</a></li>
-                    <li class="arredondado borda"><a href="#contatos">Contato</a></li>
+                    <li class="arredondado borda"><a href="#servicos">Serviços</a></li>
+                    <li class="arredondado borda"><a href="#contatos">Contato</a></li> 
+                    <li class="arredondado borda"><a href="pages/saladigital.html">Sala digital</a></li> 
+                    <li class="arredondado borda"><a href="pages/saladigital.html#tutoriais">Tutoriais</a></li>                 
                 </nav>
             </div>
         </header>
@@ -38,7 +38,7 @@
                 it to make a type specimen book. It has survived not only five centuries, but also the leap into 
                 electronic typesetting. It was popularised in the 1960s with the release of Letraset sheets 
                 containing Lorem Ipsum.</p>
-            <div class="left">
+            <div class="left"> <!--Talvez deixar sem flutuação, deixar o video grande abaixo do texto-->
                 <h2 class="fundocinza arredondado centralizado margem-titulo2 borda-titulo">sobre...</h2>
                 <p class="fundocinza arredondado">is simply dummy text of the printing and typesetting industry. it to make a type specimen book.<br> 
                     is simply dummy text of the printing and typesetting industry. it to make a type specimen book.<br>
@@ -48,20 +48,20 @@
                     It has survived not only five centuries, but also the leap into electronic typesetting.<br> 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.</p>
             </div>
-            <div>
+            <div class="divImg">
                 <iframe class="arredondado borda" width="500" height="300" src="https://www.youtube.com/embed/1YSsNfp7Ip0?start=10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="right" id="servicos">
                 <h2 class="fundocinza arredondado centralizado margem-titulo borda-titulo">Serviços</h2>
                 <p class="fundocinza arredondado">is simply dummy text of the printing and typesetting industry. it to make a type specimen book.<br> 
                     is simply dummy text of the printing and typesetting industry. it to make a type specimen book.<br>
-                    is simply dummy text of the printing and typesetting industry. it to make a type specimen book.<br>
+                    is <a href="pages/saladigital.html">Sala digital</a> of the printing and typesetting industry. it to make a type specimen book.<br>
                     is simply dummy text of the printing and typesetting industry. it to make a type specimen book.<br>
                     is simply dummy text of the printing and typesetting industry. it to make a type specimen book.<br>
                     It has survived not only five centuries, but also the leap into electronic typesetting.<br> 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.</p>
             </div>
-            <div>
+            <div class="divImg">
                 <img class="imagemsobre arredondado borda" src="img/3.jpg">
             </div>
             <div class="left">
@@ -74,15 +74,15 @@
                     It has survived not only five centuries, but also the leap into electronic typesetting.<br> 
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.</p>
             </div>
-            <div>
+            <div class="divImg">
                 <img class="imagemsobre arredondado borda" src="img/3.jpg">
             </div>
         </section>
         <section id="contatos">
-            <div class="left divisao espacamento">
+            <div class="left divisao espacamento zerar-esquerda">
                 <h3>Email:</h3>
                 <img class="icone" src="https://www.flaticon.com/svg/static/icons/svg/2150/2150313.svg">
-                <p>SALADOEMPREENDEDOR@POMERODE.SC.GOV.BR</p>
+                <p>Saladoempreendedor@pomerode.sc.gov.br</p>
             </div>
             <div class="right divisao espacamento">
                 <h3>Endereço:</h3>
@@ -92,14 +92,14 @@
             <div class="left margem-left espacamento">
                 <h3>Telefone:</h3>
                 <img class="icone" src="https://www.flaticon.com/svg/static/icons/svg/901/901171.svg">
-                <p>3387-7215 E 3387-7224</p>
+                <p>3387-7215 e 3387-7224</p>
                 <p>(WhatsApp: 99249-0439)</p>
             </div>
         </section>
         <footer>
-            <a href="https://www.pomerode.sc.gov.br/" target="_Blank"><img class="left" src="img/footer2.bmp"></a>
-            <p class="left">Secretaria de Desenvolvimento Econômico</p>
-            <p>Desenvolvimento Website: Guilherme Natan Parpinelli</p>
+            <a href="https://www.pomerode.sc.gov.br/" target="_Blank"><img id="footerimg" class="left" src="img/footer2.bmp"></a>
+            <p class="left pfooter">Secretaria de Desenvolvimento Econômico</p>
+            <p class="pfooter">Desenvolvimento Website: Guilherme Natan Parpinelli</p>
         </footer>
     </body>
 </html>
