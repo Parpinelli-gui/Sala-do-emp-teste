@@ -213,18 +213,59 @@ h2{
 }
 
 /* RESPONSIVO */
+@media all and (max-width: 1024px) {
+
+    #menu-header {
+        margin-right: 30px;
+    }
+
+    #sobre div {
+        float: none;
+        text-align: center;
+    }
+
+    #inicio {
+        padding: 10px 10%;
+        margin: 10% 12%;
+        width: 410px;
+    }
+
+    #contatos {
+        padding-bottom: 20%;
+    }
+
+    .margem-left {
+        margin-left: 8%;
+    }
+
+    .zerar-esquerda {
+        margin-left: 25px;
+    }
+
+    .section-borda {
+        margin-right: 5.5%;
+    }
+
+    iframe{ 
+        margin: 20px;
+        width: 500px;
+        height: 300px;
+    }
+}
+
+/* RESPONSIVO */
 @media all and (max-width: 768px){
     #menu-header {
         visibility: hidden;
     }
 
     header {
-        width: 98%;
+        width: 100%;
     }
 
     #logo {
         margin: 10px 20px;
-        margin-left: 5%;
+        margin-left: 4%;
     }
 
     #logoimg {
@@ -233,7 +274,7 @@ h2{
 
     #inicio{ 
         font-size: 25px;
-        padding: 10px 10px 10px 0px;
+        padding: 10px 0px;
         text-align: center;
         text-transform: uppercase;
         margin: 0;
@@ -258,9 +299,9 @@ h2{
     }
 
     .imagemsobre{
-        width: 290px;
+        width: 310px;
         height: 300px;
-        margin: 20px 17px;
+        margin: 20px 0px;
     }
 
     .divImg {
@@ -268,7 +309,7 @@ h2{
     }
 
     iframe{ 
-        margin: 20px 17px;
+        margin: 20px 0px;
         width: 310px;
         height: 300px;
     }
@@ -309,4 +350,10 @@ h2{
         padding-bottom: 10%;
         padding-top: 5%;
     }
+
+    .section-borda {
+        margin-right: 3%;
+    }
 }
+
+

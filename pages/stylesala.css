@@ -86,7 +86,6 @@ h3 {
 }
 
 .div {
-    width: 90%;
     padding-bottom: 60%;
     margin-left: 16%;
 }
@@ -173,6 +172,34 @@ p {
     height: 25px;
 }
 
+/* RESPONSIVO */
+@media all and (max-width: 1024px) {
+
+    #menu-header {
+        margin-right: 20px;
+    }
+
+    h2 {
+        padding: 10% 10%;
+    }
+
+    .div {
+        margin-left: 15%;
+    }
+
+    #titulo2 {
+        margin-top: 90%;
+    }
+
+    .design {
+        width: 40%;
+        padding: 100px 0px;
+    }
+
+    .margem-baixo {
+        margin-bottom: 90%;
+    }
+}
 
 /* RESPONSIVO */
 @media all and (max-width: 768px){
@@ -202,9 +229,8 @@ p {
     }
 
     h2 {
-        font-size: 60px;
-        padding: 66% 5%;
-        width: 310px;
+        font-size: 50px;
+        padding: 65% 5%;
     }
     .div {
         padding-bottom: 10%;
@@ -212,7 +238,7 @@ p {
     }
 
     .design {
-        padding: 40px 0px;
+        padding: 45px 0px;
         width: 93%;
     }
 
@@ -222,6 +248,10 @@ p {
 
     #footerimg {
         margin: 5px 24%;
+    }
+
+    #titulo2 {
+        margin-top: 20%;
     }
 
 }
