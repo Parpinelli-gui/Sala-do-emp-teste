@@ -517,6 +517,15 @@ h2 {
     background-color: #1C1C1C;
 }
 
+.icone {
+    background-image: url(telefone)
+}
+.icone2 {
+    background-image: url(endereço)
+}
+.icone3 {
+    background-image: url(email)
+}
 
 
 
