@@ -40,11 +40,13 @@ li{
 }
 
 li a{
-    color:#054f77;
+    color: #4682B4;
 }
 
 li:hover{
     padding: 25px;
+    background-color: #054f77;
+    box-shadow: 2px 2px 5px #4682B4;
 }
 
 /* ------ CENTRO ------- */
@@ -79,7 +81,7 @@ h2 {
 }
 
 h3 {
-    color: #054f77;
+    color: #DA70D6;
     margin-right: 65%;
     margin-top: 5%;
     margin-bottom: 20px;
@@ -202,7 +204,24 @@ p {
 }
 
 /* RESPONSIVO */
-@media all and (max-width: 768px){
+@media all and (max-width: 1299px){
+
+    .div {
+        padding-bottom: 80%;
+        margin-left: 4%;
+    }
+
+    .design {
+        width: 30%;
+    }
+
+    #titulo2 {
+        margin-top: 15%;
+    }
+}
+
+/* RESPONSIVO */
+@media all and (max-width: 859px){
     #menu-header {
         visibility: hidden;
     }
@@ -254,4 +273,36 @@ p {
         margin-top: 20%;
     }
 
+}
+
+
+
+html, body {
+    background-color:black;
+    color: white;
+}
+
+header {
+    background-color: #1C1C1C;
+}
+
+h2 {
+    color: #4682B4;
+}
+
+.fundocinza {
+    background-color:#1C1C1C;
+}
+
+.design {
+    background-color: #1c1c1c;
+    box-shadow: 2px 2px 5px #4682B4;
+}
+
+.design:hover {
+    box-shadow: 2px 2px 20px #4682B4;
+}
+
+a {
+    color: #4682B4;
 }
